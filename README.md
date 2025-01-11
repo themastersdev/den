@@ -1,5 +1,6 @@
-1. Run `docker container rm den`
-2. Run `docker build -t den .`
-3. Run `docker container create --name den den`
-4. Run `ocker container cp ./build.sh den:./build.sh`
+1. Run `git clone https://github.com/themastersdev/den.git`
+2. Run `cd den`
+3. Run `make den`
+4. Start building!
 
+<span style="color:red">**CAUTION**</span>: Running `make den` removes any image and container named *den*, then builds a fresh image and container named *den*. Therefore, you should run `make code` to access the den after running steps 1 through 3.
