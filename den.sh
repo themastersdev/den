@@ -24,7 +24,7 @@ curl https://sh.rustup.rs -sSf | sh
 echo "installing node"
 curl -LO https://nodejs.org/dist/v22.13.0/node-v22.13.0-linux-arm64.tar.xz
 tar -C /usr/local -xJf node-v22.13.0-linux-arm64.tar.xz
-rm -rf tar -C /usr/local -xJf node-v22.13.0-linux-arm64.tar.xz
+rm -rf node-v22.13.0-linux-arm64.tar.xz
 mv usr/local/node-v22.13.0-linux-arm64 usr/local/node
 echo 'export PATH=$PATH:/usr/local/node/bin' >> ~/.bashrc
 
