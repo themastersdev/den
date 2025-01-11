@@ -3,4 +3,4 @@
 3. Run `make den`
 4. Start building!
 
-<span style="color:red">**CAUTION**</span>: Running `make den` removes any image and container named *den*, then builds a fresh image and container named *den*. Therefore, you should run `make code` to access the den after running steps 1 through 3.
+⚠️**CAUTION**⚠️: Running `make den` removes any image and container named *den*, then builds a fresh image and container named *den*. Therefore, you should run `make code` to access the den after running steps 1 through 3.
