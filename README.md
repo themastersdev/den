@@ -1,3 +1,5 @@
+## Getting Started
+
 1. Run `git clone https://github.com/themastersdev/den.git`
 2. Run `cd den`
 3. Run `make den`
